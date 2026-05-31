@@ -105,13 +105,13 @@ public class Practice9 {
 
             System.out.println(); // Space
 
-            System.out.print("Search node: ");
+            System.out.print("Search node: "); // Searh
             int key = sc.nextInt();
 
-            if (tree.search(tree.root, key)) {
+            if (tree.search(tree.root, key)) { // FOUND
                 System.out.println("YES!");
             } else {
-                System.out.println("NO!");
+                System.out.println("NO!"); // NOT FOUND
             }
 
             sc.close();
